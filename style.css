@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+body{
+    background-image: url(img/backgroundiimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 98vh;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    color: gray;
+    font-weight: bolder;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.516);
+    outline: none;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.container{
+    background-color: #fafafa;
+    border-radius: 13px;
+    margin: 13px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.header{
+    background: linear-gradient(120deg,rgb(145, 38, 120)10%, #0f4ad6 100%);
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.form{
+    padding: 20px;
+}
+
+.form-content{
+  padding-top: 20px;
+}
+
+.form-content a{
+    visibility: hidden;
+    bottom: -8px;
+    left: 0;
+
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.form-content.error input{
+    border-color: red;
+}
+
+.form-content.error a{
+    color: red;
+    visibility: visible;
+}
+
+button{
+    background: linear-gradient(120deg,rgb(145, 38, 120)10%, #0f4ad6 100%);
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.516);
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
